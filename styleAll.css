@@ -1,0 +1,124 @@
+:root {
+    /*colors List */
+    --h1Color: white;
+    --pColor: black;
+  }
+  
+  body {
+    background-color: #070719;
+    /*font-family: 'Josefin Slab', serif;*/
+    font-family: "bilo", sans-serif;
+  }
+  
+  
+  h1 {
+    color: var(--h1Color);
+    /*font-family: 'Josefin Slab', serif;*/
+    font-family: "bilo", sans-serif;
+    font-size: 3.5vw;
+    letter-spacing: 5px;
+    margin: 50 50 50px;
+    text-align: center;
+    opacity: 0.8;
+  }
+
+h2 {
+    color: var(--h1Color);
+    /*font-family: 'Josefin Slab', serif;*/
+    font-family: "bilo", sans-serif;
+    font-size: 4.5vw;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+  #ui-buttons {
+    border: 1px transparent rgb(255, 64, 64);
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+
+  
+  #info-button {
+    background: orchiD;
+    opacity: 0.8;
+    width: 10px;
+    height: 10px;
+    /*width: 70px;
+    height: 70px;*/
+    border-radius: 20%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    margin: 200px 350px 100px;
+    transition: transform 0.3s;
+  
+    
+  }
+  #info-button:hover {
+    transform: scale(0.5);
+    background: orchid;
+  }
+
+  .onClick {
+    background: darkslateblue;
+  }
+  
+
+#text-containerH1 {
+    grid-column: 2/4;
+    border: 1px transparent white;
+}
+
+#my-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#text-container1 {
+    grid-column: 2/4;
+    border: 1px transparent white;
+}
+
+
+
+/*#style-button {
+    background: chartreuse;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}*/
+
+#home-button {
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    justify-self: left;
+}
+
+#home-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#next-button {
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    justify-self: left;
+}
+
+#next-button a {
+    text-decoration: none;
+    color: white;
+}
