@@ -1,0 +1,93 @@
+:root {
+    --h1Color: darkslateblue;
+
+}
+
+body {
+    background-color: #070719;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+h1 {
+    color: var(--h1Color);
+    font-family: 'Josefin Slab', serif;
+    font-size: 4.5vw;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+/* h2 {
+    color: white;
+} */
+
+p {
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+#text-containerH1 {
+    grid-column: 2/4;
+    border: 1px transparent white;
+}
+
+#my-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#text-container1 {
+    grid-column: 2/4;
+    border: 1px transparent white;
+}
+
+
+#ui-buttons {
+    border: 1px transparent rgb(255, 64, 64);
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#style-button {
+    background: chartreuse;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#home-button {
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    justify-self: left;
+}
+
+#home-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#next-button {
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    justify-self: left;
+}
+
+#next-button a {
+    text-decoration: none;
+    color: white;
+}
